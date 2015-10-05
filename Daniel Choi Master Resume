@@ -40,8 +40,8 @@
 
 \section{SKILLS}          
 	\begin{itemize}
-		\item Java \& OOD, Racket, Python.
-		\item Beginner skill set: MeteorJS framework, iOS development,  JavaScript, C/C++, Swift, LaTeX, HTML.
+		\item Java \& OOD, Racket, Python
+		\item Beginner skill set: C/C++, MeteorJS framework, iOS development,  JavaScript, Swift, LaTeX, HTML
 	\end{itemize}
  %-------------------------------------------------------------------------------------------------------------------------------------
  
@@ -54,6 +54,7 @@
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
    \begin{itemize}
 	\item Developing a fitness app that tracks user geolocation and stores training metadata on a server
+	\item Pro bono project for a charity, working with a team of 7 other developers
 	\item Familiarized with Git, Trello, Agile/Scrum
 \end{itemize}
 
@@ -85,9 +86,11 @@
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
    
    {\bf Teaching assistant} \>University of British Columbia     \>~~~~~Sep 2015 - Present\\
-                             \>Department of Computer Science
+                             \>Department of Computer Science \\
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Taught labs and help hours for CPSC 121 (logic proofs, discrete math, models of computation).
+   \begin{itemize}
+	\item Taught labs and help hours for CPSC 121 (logic proofs, discrete math, models of computation)
+\end{itemize}
 
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
@@ -142,19 +145,19 @@
  
 \section{PUBLICATIONS} 
 \hangindent=2em
-\hangafter=2         
-    Hou, N., Gutschmidt, A., \textbf{Choi, D.}, Pather, K., Shi, X., Watts, J., ... Taubert, S. (2014). Activation of the endoplasmic reticulum unfolded protein response by lipid disequilibrium without disturbed proteostasis in vivo. P\textit{roceedings of the National Academy of Sciences, 22}(111), E2271-80. doi:10.1073/pnas
+\hangafter=1         
+    Hou, N., Gutschmidt, A., \textbf{Choi, D.}, Pather, K., Shi, X., Watts, J., ... Taubert, S. (2014). Activation of the endoplasmic reticulum unfolded protein response by lipid disequilibrium without disturbed proteostasis in vivo. \textit{Proceedings of the National Academy of Sciences, 22}(111), E2271-80. doi:10.1073/pnas
 
 \hangindent=2em
-\hangafter=2
+\hangafter=1
     \textbf{Choi DY}, Hou NS, Taubert S. Characterization of fatty acid genes required for maintaining proteostasis in the endoplasmic reticulum and mitochondria. Poster session presented at: Child and Family Research Institute Summer Student Research Program 2013 Poster day.    
 %-------------------------------------------------------------------------------------------------------------------------------------
  
 \section{HONORS AND AWARDS}          
     Child and Family Research Institute Summer Research Scholarship    \\      
     University of British Columbia Summer Research Scholarship  \\        
-    Dean's Honor List: 2010-2015  \\
-    Science Scholar: 2015  \\
+    Dean's Honor List (2010-2015)  \\
+    Science Scholar (2015)  \\
     UBC President's Entrance Scholarship        
  
  %-------------------------------------------------------------------------------------------------------------------------------------
