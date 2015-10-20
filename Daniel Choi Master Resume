@@ -29,10 +29,10 @@
 
 \section{EDUCATION}          
     \textbf{University of British Columbia}\\
-    Bachelor of Computer Science (second degree program), expected grad September 2017   \\     
+    Bachelor of Computer Science (second degree program) ~~~~~~~~~~~~~~~~~~~~~  Expected September 2017   \\     
     GPA 4.33\\
-    \textbf{University of British Columbia}\\
-    Bachelor of Science with Distinction, Integrated Sciences, May 2015   \\       
+%    \textbf{University of British Columbia}\/
+    Bachelor of Science with Distinction, Integrated Sciences ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~May 2015   \\       
     Concentration in biochemistry \& human physiology       \\   
     GPA 3.98
 
@@ -40,12 +40,12 @@
 
 \section{SKILLS}          
 	\begin{itemize}
-		\item Java \& OOD, Racket, Python
-		\item Beginner skill set: C/C++, MeteorJS framework, iOS development,  JavaScript, Swift, LaTeX, HTML
+		\item Java, C/C++
+		\item Working knowledge: Python, Racket, JavaScript, Swift, LaTeX, HTML
 	\end{itemize}
  %-------------------------------------------------------------------------------------------------------------------------------------
  
- \section{PROJECTS}
+ \section{TECHNICAL EXPERIENCE}
    \vspace{-0.1in}	
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
@@ -53,24 +53,35 @@
     \textit{JavaScript, MeteorJS, Google Maps API}\\
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
    \begin{itemize}
-	\item Developing a fitness app that tracks user geolocation and stores training metadata on a server
-	\item Pro bono project for a charity, working with a team of 7 other developers
-	\item Familiarized with Git, Trello, Agile/Scrum
+	\item Developing an exercise app that tracks user geolocation and stores training metadata on servers
+	\item Pro bono project for a charity, working with a team of 7 other developers using agile strategies
+	\item Learned JavaScript and how to work with APIs
 \end{itemize}
 
 %    An app for the Bicycle Trek to help participants train. The app maps the 
 %    user's location, and when the start button is pressed, the stopwatch
 %     measures how long you have travelled, as well as tracking the distance 
 %     and average speed. Written primarily in JavaScript using the MeteorJS framework. Uses Google Maps API. Contributions include implementing GPS history, route drawing, distance and speed calculator functions, as well as UI/prototype mockups in Adobe Illustrator.
-     
+
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
+   
+   {\bf Teaching assistant} \>University of British Columbia     \>~~~~~Sep 2015 - Present\\
+                             \>Department of Computer Science \\
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+   \begin{itemize}
+	\item Taught labs and help hours for 80 students in CPSC 121
+	\item Topics include logic circuits and proofs, discrete math, models of computer systems
+\end{itemize}
+
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
     {\bf Mind the Gap} \>CPSC 210 course project \> ~~~~~~~~~~~ \\%Summer 2015
     \textit{Java, Transport for London Unified API}\\
    \end{tabbing}\vspace{-20pt}
    \begin{itemize}
-	\item Built an Android transit app for London that uses the Transport for London API to pull real-time arrivals and station data
-	\item Learned to parse JSON files, utilise user geolocation
+	\item Built an Android transit app for London that uses the Transport for London API to display real-time arrivals and station data
+	\item Learned to parse JSON files, utilize user geolocation
 \end{itemize}
 
 %    An Android transit app for London subway system that plots locations of stations and lines, and lists their real-time arrivals. The user's location is used to find the nearest station. Uses the Transport for London (TfL) API and parses JSON data. Written primarily in Java.
@@ -80,17 +91,9 @@
 
  
  
-\section{EXPERIENCE}
+\section{ADDITIONAL EXPERIENCE}
    \vspace{-0.1in}	
-   \begin{tabbing}
-   \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
-   
-   {\bf Teaching assistant} \>University of British Columbia     \>~~~~~Sep 2015 - Present\\
-                             \>Department of Computer Science \\
-   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-   \begin{itemize}
-	\item Taught labs and help hours for CPSC 121 (logic proofs, discrete math, models of computation)
-\end{itemize}
+
 
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
@@ -98,14 +101,14 @@
                              \>and Therapeutics \\
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
    \begin{itemize}
-	\item Conducted lipid metabolism research by experimenting on a nematode model
-	\item Learned RNA interference, cloning, dissection, and fluorescent microscopy
+	\item Conducted diabetes and lipid metabolism research by experimenting on a nematode model
+%	\item Learned RNA interference, cloning, dissection, and fluorescent microscopy
 \end{itemize}
     
     \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
     {\bf Chapter president} \>Phi Delta Epsilon     \>~~Mar 2013 - Mar 2014\\
-                             \>International Medical Fraternity, UBC chapter \\
+                             \>International Medical Fraternity\\
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
    \begin{itemize}
 	\item Lead a team of 8 executives and chairmen, and over 30 members
