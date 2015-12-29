@@ -41,12 +41,13 @@
 \section{SKILLS}          
 	\begin{itemize}
 		\item Java, C/C++
-		\item Working knowledge: Python, Racket, JavaScript, Swift, LaTeX, HTML
+		\item Working knowledge: Matlab, Python, Racket, JavaScript, LaTeX, HTML
 	\end{itemize}
  %-------------------------------------------------------------------------------------------------------------------------------------
  
  \section{TECHNICAL EXPERIENCE}
    \vspace{-0.1in}	
+   
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
     {\bf Bicycle Trek [in progress]} \>BC Lung Association     \>~~\\%Summer 2015-Present
@@ -58,10 +59,17 @@
 	\item Learned JavaScript and how to work with APIs
 \end{itemize}
 
-%    An app for the Bicycle Trek to help participants train. The app maps the 
-%    user's location, and when the start button is pressed, the stopwatch
-%     measures how long you have travelled, as well as tracking the distance 
-%     and average speed. Written primarily in JavaScript using the MeteorJS framework. Uses Google Maps API. Contributions include implementing GPS history, route drawing, distance and speed calculator functions, as well as UI/prototype mockups in Adobe Illustrator.
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
+   
+   {\bf Hakikuthon} \>UBC Hackathon     \>~~~~~~~~~~~~~~~~~Nov 2015\\
+   \textit{JavaScript, MeteorJS, Facebook API}\\
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+   \begin{itemize}
+	\item Built a real-time collaborative haiku poem writing platform
+	\item http://haikuthon.meteor.com
+\end{itemize}
+
 
    \begin{tabbing}
    \hspace{2.3in}\= \hspace{2.3in}\= \kill % set up two tab positions
@@ -112,7 +120,7 @@
    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
    \begin{itemize}
 	\item Lead a team of 8 executives and chairmen, and over 30 members
-	\item Organized ethics debates, raised over \$2000 for Children's Miracle Network, shifts at a soup kitchen, and mentoring events with physicians
+	\item Raised over \$2000 for Children's Miracle Network, organized ethics debates, shifts at a soup kitchen, and mentoring events with physicians
 \end{itemize}
     
 %    \begin{tabbing}
