@@ -2,27 +2,31 @@
 % vim:set ft=tex spell:
 
 \documentclass[10pt,letterpaper]{article}
-\usepackage[letterpaper,margin=0.75in,headheight=15mm,headsep=0mm]{geometry} % margins set to accept header
+\usepackage[letterpaper,margin=0.75in,headheight=50.21407pt,headsep=0mm]{geometry} % margins set to accept header
 \usepackage[utf8]{inputenc}
 \usepackage{mdwlist}
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
+%\usepackage{lmodern}
 \usepackage{tgpagella}
-\usepackage{graphicx} 		% for images
+\usepackage{graphicx}
 \graphicspath{ {images/} }
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
+\usepackage{array}
+
 % co-op graphic header
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\chead{\textbf{Daniel Y. Choi}}
 \cfoot{\thepage}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
 \fancypagestyle{firststyle}
 {
    \rhead{\includegraphics{ubc-science-coop-logo}}
-   \cfoot{}
+   \cfoot{} \chead{}
 }
 
 % indentsection style, used for sections that aren't already in lists
@@ -56,6 +60,8 @@
 % and the actual content starts here
 \begin{document}
 %\includegraphics{ubc-science-coop-logo}
+
+% BEGIN NAME & CONTACT INFO
 \begin{center}
 \thispagestyle{firststyle}
 {\LARGE \textbf{\\Daniel Y. Choi}}
@@ -68,6 +74,7 @@ Year 3, Bachelor of Computer Science
 github.com/cys920622\ \ \textbullet
 \ \ linkedin.com/in/danielychoi
 \end{center}
+% END NAME & CONTACT INFO
 
 \hrule
 \vspace{-0.4em}
@@ -83,19 +90,21 @@ github.com/cys920622\ \ \textbullet
 		{\textbf{Vancouver, BC}}
 	\\
 	\headerrow
-		{\emph{Bachelor of Computer Science second degree program}}
+		{\emph{Bachelor of Computer Science, second degree program}}
 		{\emph{May 2015 -- Present}}
 	\begin{itemize*}
-		\item Expected graduation: Sept. 2017
-		\item GPA 4.16 (in-major)
+%		\item Current coursework: Intermediate algorithms, Intro to relational 
+%		databases, Intro to software engineering
+%		\item Completed coursework: Intro to algorithms \& data structures, 
+%		Intro to computer systems, Software construction, Matrix algebra
+		\item GPA 4.16 (in-major), expected graduation: Sept. 2017
 	\end{itemize*}
 	
 	\headerrow
 		{\emph{Bachelor of Science with Distinction, Integrated Sciences}}
 		{\emph{Sep. 2010 -- May 2015}}
 	\begin{itemize*}
-		\item Concentration in biochemistry \& human physiology
-		\item GPA 3.98
+		\item GPA 3.98, concentration in biochemistry \& human physiology
 	\end{itemize*}
 \end{itemize}
 
@@ -103,102 +112,272 @@ github.com/cys920622\ \ \textbullet
 \hrule
 \vspace{-0.4em}
 
-\subsection*{Experience}
+% BEGIN SECTION
+\subsection*{Core Technical Skills}
+
+%\begin{center}
+%  \begin{tabular}{|@{\hskip 5pt} l@{\hskip 5pt} |@{\hskip 5pt} l@{\hskip 5pt} |
+%  @{\hskip 5pt} l @{\hskip 5pt}|}
+%    \hline
+%    Programming	& Web 		& Tools/Frameworks \\ \hline
+%    Java			& JavaScript*	& Git 			\\
+%    C				& HTML		& Meteor 			\\
+%    \CPP			& CSS*		&  				\\
+%    Matlab			& Node*		&  				\\
+%    Racket			& Angular*	&  				\\
+%    \hline
+%  \end{tabular} \\
+%  **currently learning
+%\end{center}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description*}
+	\item[Languages:]
+	Java, C, \CPP, Matlab, \LaTeX*, Racket
+	\item[Web:]
+	JavaScript*, TextScript*, HTML, CSS*, NodeJS*, AngularJS*, Express*
+	\item[Tools \& Frameworks:]
+	Git, MeteorJS, MongoDB*, JDBC*, MySQL*
+\end{description*}
+\hfill{\emph{$\ast$currently learning}}
+\end{indentsection}
+
+
+\hrule
+\vspace{-0.4em}
+% END SECTION
+
+\subsection*{Relevant experience}
 
 \begin{itemize}
 	\parskip=0.1em
 
 	\item
 	\headerrow
-		{\textbf{Example Company One, LLC.}}
-		{\textbf{Chicago, IL}}
+		{\textbf{University of British Columbia}}
+		{\textbf{Vancouver, BC}}
 	\\
 	\headerrow
-		{\emph{Software Developer \& Project Manager}}
-		{\emph{2004 -- 2010}}
+		{\emph{CS teaching assistant}}
+		{\emph{Sep. 2015 -- Present}}
 	\begin{itemize*}
-		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-		diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-		erat volutpat.
-		\item Duis splople autem vel eum iriure dolor in hendrerit in vulputate
-		velit esse molestie consequat, vel illum dolore eu feugiat nulla
-		facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-		praesent luptatum zzril delenit augue duis dolore te feugait nulla
-		facilisi.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
-		\item Investigationes demonstraverunt lectores legere me lius
-		quod ii legunt saepius. Claritas est etiam processus dynamicus, qui
-		sequitur mutationem consuetudium lectorum.
-		\item Mirum est notare quam littera gothica, quam nunc putamus parum
-		claram, anteposuerit litterarum formas humanitatis per seacula quarta
-		decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-		clari, fiant sollemnes in futurum.
+		\item Teaching labs and office hours for over 120 students in an introductory CS course
+		\item Topics focus on propositional and predicate logic proofs, discrete math, and models 
+		of computer systems
 	\end{itemize*}
+	
+	\item
+	\headerrow
+		{\textbf{Collab-A-Comic!}}
+		{\textbf{Course project}}
+	\\
+	\headerrow
+		{\emph{MongoDB, Express, AngularJS, NodeJS}}
+		{\emph{Jan. 2016 -- Present}}
+	\begin{itemize*}
+		\item Developing an online collaborative comic book web application that lets 
+		users create comics by uploading panels to new or existing projects, and lets 
+		users search for and subscribe to comics and other users
+		\item Learning to implement Agile software development, wrote 11 user stories in the 
+		product backlog
+		\end{itemize*}
 
 	\item
 	\headerrow
-		{\textbf{Arch Linux}}
-		{\textbf{www.archlinux.org}}
+		{\textbf{Kiki's Delivery Service}}
+		{\textbf{Course project}}
 	\\
 	\headerrow
-		{\emph{Software Developer \& Contributing Community Member}}
-		{\emph{2006 -- Present}}
+		{\emph{Java, JDBC, MySQL}}
+		{\emph{Jan. 2016 -- Present}}
 	\begin{itemize*}
-		\item Ut wisi enim ad minim veniam, quis nostrud exerci tation
-		ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-		\item Duis splople autem vel eum iriure dolor in hendrerit in vulputate
-		velit esse molestie consequat, vel illum dolore eu feugiat nulla
-		facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-		praesent luptatum zzril delenit augue duis dolore te feugait nulla
-		facilisi.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
-		\item Mirum est notare quam littera gothica, quam nunc putamus parum
-		claram, anteposuerit litterarum formas humanitatis per seacula quarta
-		decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum
-		clari, fiant sollemnes in futurum.
-	\end{itemize*}
+		\item Designing and implementing a relational database application from scratch 
+		that models a parcel delivery service
+		\item Interface will be able to handle multiple user types, and will 
+		have at least 10 different queries
+		\item Currently making Entity-Relationship diagrams
+		\end{itemize*}
 
 	\item
 	\headerrow
-		{\textbf{Example Company Two, Inc.}}
-		{\textbf{Chicago, IL}}
+		{\textbf{Haikuthon}}
+		{\textbf{UBC BCS Hackathon}}
 	\\
 	\headerrow
-		{\emph{Software Consultant, Summer Intern}}
-		{\emph{1999 -- 2004}}
+		{\emph{JavaScript, MeteorJS, Facebook API}}
+		{\emph{Nov. 2015}}
 	\begin{itemize*}
-		\item Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-		diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-		erat volutpat.
-		\item Ut wisi enim ad minim veniam, quis nostrud exerci tation
-		ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-		\item Nam liber tempor cum soluta nobis eleifend option congue nihil
-		imperdiet doming id quod mazim placerat facer possim assum. Typi non
-		habent claritatem insitam; est usus legentis in iis qui facit eorum
-		claritatem.
+		\item Built a real-time collaborative haiku poem writing platform, with automatic syllable checking
+		\item Implemented online users list using MongoDB and Facebook API
+		\end{itemize*}
+
+	\item
+	\headerrow
+		{\textbf{Bicycle Trek}}
+		{\textbf{Code It Forward Hackathon}}
+	\\
+	\headerrow
+		{\emph{JavaScript, MeteorJS, Google Maps API}}
+		{\emph{Jul. 2015}}
+	\begin{itemize*}
+		\item Created a web app for cyclists that traces the user's path on a map, 
+		and displays training metrics such as distance, speed, and elapsed time
+		\item Designed UI, created InVision prototype, and implemented GPS-tracked 
+		polyline drawing
 	\end{itemize*}
+
+\begin{samepage}
+	\item
+	\headerrow
+		{\textbf{Mind the Gap}}
+		{\textbf{Course project}}
+	\\
+	\headerrow
+		{\emph{Java, Android Studio, Transport for London Unified API}}
+		{\emph{Jul. -- Aug. 2015}}
+	\begin{itemize*}
+		\item Built an Android transit app that uses the Transport for 
+		London API to display real-time arrivals and station data on a map of the city
+		\item Implemented JSON parser, utilized user geolocation, implemented map 
+		overlays for stations and railways, wrote JUnit tests for every method
+	\end{itemize*}
+\end{samepage}
 
 \end{itemize}
 
 
 \hrule
 \vspace{-0.4em}
-\subsection*{Core Technical Skills}
+
+% BEGIN SECTION
+\subsection*{Additional experience}
+
+\begin{itemize}
+	\parskip=0.1em
+
+	\item 
+	\headerrow
+		{\textbf{Centre for Molecular Medicine and Therapeutics}}
+		{\textbf{Vancouver, BC}}
+	\\
+	\headerrow
+		{\emph{Undergraduate researcher}}
+		{\emph{May 2012 -- Mar. 2014}}
+	\begin{itemize*}
+		\item Conducted diabetes and lipid metabolism research by experimenting 
+		on a nematode model
+	\end{itemize*}
+	
+	\item 
+	\headerrow
+		{\textbf{Phi Delta Epsilon International Medical Fraternity}}
+		{\textbf{Vancouver, BC}}
+	\\
+	\headerrow
+		{\emph{Chapter president}}
+		{\emph{Mar. 2013 -- Mar. 2014}}
+	\begin{itemize*}
+		\item Gave guidance to a team of 8 executives and chairmen, and over 30 members
+		\item Raised over \$2000 for Children's Miracle Network, organized 
+		ethics debates, shifts at a soup kitchen, and mentoring events with physicians
+	\end{itemize*}
+\end{itemize}
+
+
+\hrule
+\vspace{-0.4em}
+% END SECTION
+
+% BEGIN SECTION
+\subsection*{Honors and awards}
+
+\begin{itemize*}
+	\parskip=0.1em
+	\item 
+	\headerrow
+		{{UBC Science Scholar}}
+		{{2015}}
+	\item 
+	\headerrow
+		{{UBC Dean's Honor List}}
+		{{2010 -- 2015}}
+	\item 
+	\headerrow
+		{{UBC Summer Research Scholarship}}
+		{{2013}}
+	\item 
+	\headerrow
+		{{Child and Family Research Institute Summer Research Scholarship}}
+		{{2013}}
+	\item 
+	\headerrow
+		{{UBC President's Entrance Scholarship}}
+		{{2010}}
+\end{itemize*}
+
+
+\hrule
+\vspace{-0.4em}
+% END SECTION
+
+% BEGIN SECTION
+\subsection*{Publications}
 
 \begin{indentsection}{\parindent}
 \hyphenpenalty=1000
 \begin{description*}
-	\item[Languages:]
-	C, \CPP, Java, JavaScript, \LaTeX, Perl, Python, shell script, SQL
-	\item[Open Source Contributions:]
-	Project A, Project B, Project C
+%\begin{itemize*}
+	\item
+	Hou, N., Gutschmidt, A., \textbf{Choi, D.}, Pather, K., Shi, X., Watts, J., ... Taubert, S. 
+	(2014). Activation of the endoplasmic reticulum unfolded protein response by 
+	lipid disequilibrium without disturbed proteostasis in vivo. \textit{Proceedings of the 
+	National Academy of Sciences, 22}(111), E2271-80. doi:10.1073/pnas
+	\item
+	\textbf{Choi DY}, Hou NS, Taubert S. Characterization of fatty acid genes required for 
+	maintaining proteostasis in the endoplasmic reticulum and mitochondria. Poster 
+	session presented at: Child and Family Research Institute Summer Student Research 
+	Program 2013 Poster day.
+%\end{itemize*}
 \end{description*}
 \end{indentsection}
+\hrule
+\vspace{-0.4em}
+% END SECTION
+
+% BEGIN SECTION
+\subsection*{Extracurricular activities}
+
+\begin{itemize*}
+	\parskip=0.1em
+	\item 
+	\headerrow
+		{{Guitar instructor for charity fundraising}}
+		{{2014}}
+	\item 
+	\headerrow
+		{{UBC orientations leader}}
+		{{2010 -- 2013}}
+	\item 
+	\headerrow
+		{{Soup kitchen volunteer}}
+		{{2011 -- 2013}}
+	\item 
+	\headerrow
+		{{HIV/AIDS ward volunteer}}
+		{{2011 -- 2013}}
+	\item 
+	\headerrow
+		{{Hospital volunteer team leader}}
+		{{2011 -- 2012}}
+	\item 
+	\headerrow
+		{{Science Undergraduate Society}}
+		{{2010 -- 2011}}
+\end{itemize*}
+\vspace{-0.4em}
+% END SECTION
+
+
 
 \end{document}
